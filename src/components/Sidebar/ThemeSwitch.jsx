@@ -1,5 +1,4 @@
-import React from 'react';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { ThemeContext } from '../Dashboard/Dashboard';
 import './ThemeSwitch.css';
 
