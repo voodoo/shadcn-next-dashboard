@@ -1,0 +1,51 @@
+.theme-switch-wrapper {
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.theme-switch {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+  background-color: var(--background-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  padding: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.theme-switch:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.theme-icon {
+  transition: transform 0.5s ease;
+}
+
+.theme-switch:hover .theme-icon {
+  transform: rotate(45deg);
+}
+
+/* Light theme styles */
+.theme-light .theme-switch {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.theme-light .theme-switch:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.theme-switch svg {
+  fill: var(--text-primary);
+  width: 20px;
+  height: 20px;
+} 
