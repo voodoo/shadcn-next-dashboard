@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext, useContext } from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import ProjectList from './ProjectList';
 import TaskList from './TaskList';
